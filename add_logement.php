@@ -48,7 +48,7 @@ if (
 
                 if (in_array($extensionImage, $extensionsArray)) {
                     //echo "here here 3";
-                    $img_name = IMAGES_FOLDER . $informationsImage['filename'] . '_' . time() . '.' . $extensionImage;
+                    $img_name = IMAGES_FOLDER . 'logement' . '_' . time() . '.' . $extensionImage;
 
                     //if images folder does not exist, create it
                     if (!is_dir('images')) {
